@@ -1,0 +1,215 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705),rgba(62, 180, 180, 0.904)),url(../hacker/cyber\ \(15\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+
+ul{
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    float: right;
+    margin: -3.5em;
+    margin-right: 2em;
+    
+    
+    
+}
+
+.main{
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 60px rgb(232, 238, 238);
+    height: 100px;
+    width: 1350px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 1350px;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 4em;
+    
+    
+    
+}
+
+
+a{
+
+    text-decoration: none;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    
+}
+
+ul li::after{
+    content: "";
+    background: dodgerblue;
+    width: 0%;
+    height: 3px;
+    display: block;
+    margin:auto;
+    transition: 1.5s;
+}
+
+ul li:hover::after{
+    width: 100%;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#container .image{
+    display:flow-root;
+    border: 2px transparent;
+    padding: 3px;
+    border-radius: 40px;
+    margin: 2px;
+}
+.image img{
+    width: 390px;
+    height: 300px;
+    border-radius: 20px;
+   border: 1px solid transparent ;
+    transition: 2s;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+#container .word p{
+    font-size:large;
+    font-family: system-ui, -apple-system,
+     BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 
+     'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.word{
+    background-color:powderblue;
+    height: 2em;
+    border-radius: 10px;
+}
+
+.text h1{
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top: 5px white solid;
+    border-left: 2px white solid; 
+    border-right: 2px white solid;
+    margin: 20em;
+    text-align: center;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+     'Helvetica Neue', sans-serif;
+
+     margin-top: 4em;
+     margin-bottom: 4em;
+     font-weight: bold;
+}
+
+
+.all{
+    display: flex;
+    gap: 4em;
+    background-color: lightgrey;
+   border-top: 2px black solid;
+   border-bottom: 2px black solid;
+    height: 100%;
+    margin-top: 10em;
+    width: 84.2em;
+   
+}
+.all h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.all ol li{
+
+    
+    list-style-type: none;
+    text-decoration: none;
+   
+    cursor: pointer;
+   
+   
+    
+}
+
+
+.all h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.all ol li{
+    font-family: cursive;
+}
+
+.all h2{
+    margin-left: 2em;
+}
+
+
+.log{
+    margin-left: 1em;
+  
+   
+}
+
+
+.all ol li::after{
+    content: "";
+    background: black;
+    width: 0%;
+    height: 3px;
+    display: block;
+    margin:4px;
+    transition: 1s;
+}
+
+ol li:hover::after{
+    width: 70%;
+    
+}
+.follow{
+    display:flex;
+    gap: 4em;
+    margin-left: 20em;
+   
+    
+}
+
+
+.contact h2{
+    margin-left: 23em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.crsh{
+    background-color:grey;
+    width: 85.3em;
+    margin: -1em;
+    border-top: 2px black solid;
+    margin-top: -0.19em;
+}
